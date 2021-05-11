@@ -12,7 +12,7 @@ class Config():
     SUDO_USERS = list(set(SUDO_USERS))
   else:
     BOT_TOKEN = "1808127577:AAHpEO_Mn8PClBDph1hkPDuJpI76uCuhRJU"
-    DATABASE_URL = ""
+    DATABASE_URL = "postgres://steltdntcryofi:f06df944f9e72a4fbedbb3e295ddf7f074be0d501ca940ce6f3ec5c64acbd289@ec2-34-232-191-133.compute-1.amazonaws.com:5432/d5d7j582p4gsgb"
     APP_ID = "2758586"
     API_HASH = "834ea536228400071eb0aeff1504a822"
     SUDO_USERS = list(set(int(x) for x in ''.split()))
@@ -23,7 +23,7 @@ class Config():
 class Messages():
       HELP_MSG = [
         ".",
-
+tu
         "**Force Subscribe**\n__Force group members to join a specific channel before sending messages in the group.\nI will mute members if they not joined your channel and tell them to join the channel and unmute themself by pressing a button.__",
         
         "**Setup**\n__First of all add me in the group as admin with ban users permission and in the channel as admin.\nNote: Only creator of the group can setup me and i will leave the chat if i am not an admin in the chat.__",
