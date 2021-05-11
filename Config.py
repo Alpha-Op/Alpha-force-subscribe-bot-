@@ -5,16 +5,16 @@ class Config():
   if ENV:
     BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
     DATABASE_URL = os.environ.get("DATABASE_URL", None)
-    APP_ID = os.environ.get("APP_ID", 6)
+    APP_ID = os.environ.get("2758586", 6)
     API_HASH = os.environ.get("API_HASH", None)
-    SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USERS").split()))
+    SUDO_USERS = list(set(int(x) for x in os.environ.get("1730456551").split()))
     SUDO_USERS.append(939425014)
     SUDO_USERS = list(set(SUDO_USERS))
   else:
-    BOT_TOKEN = ""
+    BOT_TOKEN = "1808127577:AAHpEO_Mn8PClBDph1hkPDuJpI76uCuhRJU"
     DATABASE_URL = ""
-    APP_ID = ""
-    API_HASH = ""
+    APP_ID = "2758586"
+    API_HASH = "834ea536228400071eb0aeff1504a822"
     SUDO_USERS = list(set(int(x) for x in ''.split()))
     SUDO_USERS.append(939425014)
     SUDO_USERS = list(set(SUDO_USERS))
