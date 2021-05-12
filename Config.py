@@ -7,7 +7,7 @@ class Config():
     DATABASE_URL = os.environ.get("DATABASE_URL", None)
     APP_ID = os.environ.get("2758586", 6)
     API_HASH = os.environ.get("API_HASH", None)
-    SUDO_USERS = list(set(int(x) for x in os.environ.get("").split()))
+    SUDO_USERS = list(set(int(x) for x in os.environ.get("SUDO_USER").split()))
     SUDO_USERS.append(939425014)
     SUDO_USERS = list(set(SUDO_USERS))
   else:
